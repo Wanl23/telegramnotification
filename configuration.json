@@ -1,0 +1,71 @@
+{
+  "apikey": [
+    "123",
+    "1231235",
+    "23"
+  ],
+  "projects": [
+    {
+      "test": {
+        "groups": [
+          {
+            "developers": {
+              "chat_id": [
+                "1",
+                "2",
+                "3"
+              ]
+            }
+          },
+          {
+            "owners": {
+              "chat_id": [
+                "4",
+                "5",
+                "6"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "power": {
+        "groups": [
+          {
+            "developers": {
+              "chat_id": [
+                "d",
+                "e",
+                "v"
+              ]
+            }
+          },
+          {
+            "owners": {
+              "chat_id": [
+                "o",
+                "w",
+                "n"
+              ]
+            }
+          },
+          {
+            "cowboys": {
+              "chat_id": [
+                "c",
+                "o",
+                "w"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+
+
+
