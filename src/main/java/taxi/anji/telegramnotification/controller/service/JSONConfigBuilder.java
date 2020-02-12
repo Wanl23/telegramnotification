@@ -5,7 +5,6 @@ import taxi.anji.telegramnotification.controller.model.ChatID;
 import taxi.anji.telegramnotification.controller.model.Group;
 import taxi.anji.telegramnotification.controller.model.JSONConfig;
 import taxi.anji.telegramnotification.controller.model.Project;
-
 import java.util.ArrayList;
 
 public class JSONConfigBuilder {

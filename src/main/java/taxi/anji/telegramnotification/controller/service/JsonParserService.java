@@ -2,10 +2,8 @@ package taxi.anji.telegramnotification.controller.service;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import org.springframework.stereotype.Service;
 import taxi.anji.telegramnotification.controller.model.ApiKey;
 import taxi.anji.telegramnotification.controller.model.JSONConfig;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashSet;

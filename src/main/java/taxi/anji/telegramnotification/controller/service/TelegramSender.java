@@ -1,10 +1,8 @@
 package taxi.anji.telegramnotification.controller.service;
 
 import org.springframework.http.*;
-import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import taxi.anji.telegramnotification.controller.model.ChatID;
-
 import java.util.Collections;
 import java.util.Set;
 
