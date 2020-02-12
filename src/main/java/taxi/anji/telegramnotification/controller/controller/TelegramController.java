@@ -24,18 +24,6 @@ public class TelegramController {
         String apiKey = request.getHeader("apikey");
         Set chatIDS = JsonParserService.verifyApiKeyAndGetChatIDs(apiKey, projectName, groups);
         String botToken = JsonParserService.getBotToken();
-        TelegramSender.send(chatIDS, message, botToken);
-    }
-
-    @GetMapping("/test")
-    @ResponseStatus(HttpStatus.OK)
-    public void telegramNotification(HttpServletRequest request,
-                                       @RequestParam String chatID,
-                                       @RequestParam String message,
-                                       @RequestParam String botToken) throws FileNotFoundException {
-        System.out.println(request);
-        System.out.println(chatID);
-        System.out.println(message);
-        System.out.println(botToken);
+        TelegramSender.sendToBot(chatIDS, message, botToken);
     }
 }
