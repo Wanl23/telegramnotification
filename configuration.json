@@ -1,68 +1,30 @@
 {
-  "apikey": [
-    "123",
-    "1231235",
-    "23"
-  ],
+  "apikey": ["1231235","123","23"],
   "projects": [
-    {
-      "test": {
-        "groups": [
-          {
-            "developers": {
-              "chat_id": [
-                "1",
-                "2",
-                "3"
+                {
+                  "name": "test",
+                  "groups":[
+                            {
+                                "name": "developers",
+                                "chat_id": ["1","2","3"]},
+                              {
+                                "name":"owners",
+                                "chat_id": ["4","5","6"]}
+                            ]},
+                {
+                  "name": "power",
+                  "groups":[
+                            {
+                              "name": "developers",
+                              "chat_id": ["d","e","v"]},
+                            {
+                              "name":"owners",
+                              "chat_id": ["o","w","n"]},
+                            {
+                              "name":"cowboys",
+                              "chat_id": ["c","o","w"]}
+                          ]}
               ]
-            }
-          },
-          {
-            "owners": {
-              "chat_id": [
-                "4",
-                "5",
-                "6"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "power": {
-        "groups": [
-          {
-            "developers": {
-              "chat_id": [
-                "d",
-                "e",
-                "v"
-              ]
-            }
-          },
-          {
-            "owners": {
-              "chat_id": [
-                "o",
-                "w",
-                "n"
-              ]
-            }
-          },
-          {
-            "cowboys": {
-              "chat_id": [
-                "c",
-                "o",
-                "w"
-              ]
-            }
-          }
-        ]
-      }
-    }
-  ]
 }
 
 

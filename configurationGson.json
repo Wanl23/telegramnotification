@@ -1,0 +1,80 @@
+{
+  "botToken" : "12345555",
+  "apiKeys": [
+    {
+      "key": "123",
+      "description": "default"
+    },
+    {
+      "key": "234",
+      "description": "additional"
+    }
+  ],
+  "projects": [
+    {
+      "name": "java",
+      "groups": [
+        {
+          "name": "dev",
+          "chatIDS": [
+            {
+              "id": "1"
+            },
+            {
+              "id": "2"
+            }
+          ]
+        },
+        {
+          "name": "prom",
+          "chatIDS": [
+            {
+              "id": "3"
+            },
+            {
+              "id": "4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "C#",
+      "groups": [
+        {
+          "name": "prom",
+          "chatIDS": [
+            {
+              "id": "3"
+            },
+            {
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "name": "star",
+          "chatIDS": [
+            {
+              "id": "5"
+            },
+            {
+              "id": "6"
+            }
+          ]
+        },
+        {
+          "name": "cowboys",
+          "chatIDS": [
+            {
+              "id": "7"
+            },
+            {
+              "id": "8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
