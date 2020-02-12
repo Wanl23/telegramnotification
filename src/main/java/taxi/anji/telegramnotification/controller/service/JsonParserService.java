@@ -12,20 +12,8 @@ import java.util.stream.Collectors;
 
 public class JsonParserService {
 
-    private static final String JSON_DIRECTORY = "/Users/internet/IdeaProjects/my/telegramnotification/configurationGson.json";
-
-    public static void main(String[] args) throws IOException {
-        ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("prom");
-        arrayList.add("cowboys");
-        System.out.println(verifyApiKeyAndGetChatIDs("123","C#", arrayList));
-        //        ключи - бот токен
-
-        //        проекты
-        //        группы
-        //        чат ай ди лонг
-        //        мессадж
-    }
+    private static final String JSON_DIRECTORY = "C:\\Users\\ivanl\\IdeaProjects\\taxi\\telegramnotification\\configurationGson.json";
+//    private static final String JSON_DIRECTORY = "/opt/tomcat/conf/taxi-05-firebase.json";
 
     public static Set verifyApiKeyAndGetChatIDs(String apiKey, String projectName, ArrayList<String> groups) throws FileNotFoundException {
         JSONConfig jsonConfig = getJsonConfig();
@@ -58,5 +46,12 @@ public class JsonParserService {
     public static String getBotToken() throws FileNotFoundException {
         JSONConfig jsonConfig = getJsonConfig();
         return jsonConfig.getBotToken();
+    }
+
+    public static void main(String[] args) throws IOException {
+        ArrayList<String> arrayList = new ArrayList<>();
+        arrayList.add("prom");
+        arrayList.add("cowboys");
+        System.out.println(verifyApiKeyAndGetChatIDs("123","C#", arrayList));
     }
 }

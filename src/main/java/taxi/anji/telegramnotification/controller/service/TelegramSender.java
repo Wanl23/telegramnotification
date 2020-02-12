@@ -16,7 +16,7 @@ public class TelegramSender {
         chatIDS.forEach(c -> {
             final RestTemplate restTemplate = new RestTemplate();
 
-            String url = "http://localhost:8080/telegramnotification_war/test?"
+            String url = "http://localhost:8080/telegram_notification_war/test?"
                     + "chatID=" + c
                     + "&message=" + message
                     + "&botToken=" + botToken;
